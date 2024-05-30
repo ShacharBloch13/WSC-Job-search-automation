@@ -1,5 +1,8 @@
 # WSC Job Search Automation
 
+# Important update
+WSC has recently changed its website, so the scraping doesn't work at the moment. Will soon work on an updated version
+
 Working for WSC has long been an aspiration of mine. After missing out on an opportunity to apply for a role I thought was great for me due to reserve duty, I decided to create an automation that would not let me miss the opportunity again.
 This Python script automates the process of checking for new job opportunities at WSC Sports' careers page. It uses Selenium to scrape the website for job listings and compares these listings against previously seen ones, stored in a file the script creates. If new job opportunities are found, the script sends an email notification.
 
